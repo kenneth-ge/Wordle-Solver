@@ -30,7 +30,7 @@ A greedy search is more than fast enough. However, is it optimal?
 
 I think the answer is probably no, although I can’t think of a proof…
 
-In either case, we can supplement our greedy best search by allowing ourselves to consider the top n=500 combinations (which is fast enough) , rather than just the single best combination so far. 
+In either case, we can supplement our greedy best search by allowing ourselves to consider the top n=500 combinations (which is fast enough), rather than just the single best combination so far. 
 
 Obviously, as the number of combinations we allow ourselves to consider increases, our answer becomes more and more optimal. In fact, it essentially becomes our backtracking search as we get to n=10^17 possibilities. 
 
